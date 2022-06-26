@@ -18,12 +18,30 @@
 </head>
 <body>
 	<header>
-		<img src="images/logo.svg" alt="logo do site">
-
 		<nav>
 			<div class="ctr-links-menu">
-				<button class="botao-menu">Features <img src="images/icon-arrow-down.svg" alt="ícone seta pra baixo"></button>
-				<button class="botao-menu">Company <img src="images/icon-arrow-down.svg" alt="ícone seta pra baixo"></button>
+				<a href="#" class="logo"><img src="images/logo.svg" alt="logo do site"></a>
+				
+				<div class="ctr-submenu">
+					<a class="botao-submenu">Features <img src="images/icon-arrow-down.svg" alt="ícone seta pra baixo"></a>
+
+					<div class="submenu direita none">
+						<a href="#"><img src="images/icon-todo.svg" class="icone" alt="ícone Todo List"><span>Todo List</span></a>
+						<a href="#"><img src="images/icon-calendar.svg" class="icone" alt="ícone Calendar"><span>Calendar</span></a>
+						<a href="#"><img src="images/icon-reminders.svg" class="icone" alt="ícone Reminders"><span>Reminders</span></a>
+						<a href="#"><img src="images/icon-planning.svg" class="icone" alt="ícone Planning"><span>Planning</span></a>
+					</div>
+				</div>
+
+				<div class="ctr-submenu">
+					<a class="botao-submenu esquerda">Company <img src="images/icon-arrow-down.svg" alt="ícone seta pra baixo"></a>
+
+					<div class="submenu esquerda none">
+						<a href="#"><span>History</span></a>
+						<a href="#"><span>Our Team</span></a>
+						<a href="#"><span>Blog</span></a>
+					</div>
+				</div>
 				<a>Careers</a>
 				<a>About</a>
 			</div>
@@ -37,12 +55,14 @@
 
 	<main>
 		<div class="secao-principal">
-			<h1>Make remote work</h1>
-		
-			<p>Get your team in sync, no matter your location. Streamline processes, 
-			create team rituals, and watch productivity soar.</p>
-		
-			<button class="botao">Learn more</button>
+			<div class="ctr-descricao">
+				<h1>Make<br> remote work</h1>
+			
+				<p>Get your team in sync, no matter your location. Streamline processes, 
+				create team rituals, and watch productivity soar.</p>
+			
+				<button class="botao">Learn more</button>
+			</div>
 
 			<div class="ctr-creditos">
 				<a href="#" class="creditos"><img src="images/client-databiz.svg" alt="logo do databiz"></a>
@@ -52,7 +72,7 @@
 			</div>
 		</div>
 
-		<img src="images/image-hero-desktop.png" alt="imagem de uma ilustração">
+		<img class="ilustracao" src="images/image-hero-desktop.png" alt="imagem de uma ilustração">
 	</main>
   
   <!-- <div class="attribution">

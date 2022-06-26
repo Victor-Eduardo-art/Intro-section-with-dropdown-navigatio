@@ -17,11 +17,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-div, section, body, aside, header, footer {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	line-height: 1;
     margin: 0px;
